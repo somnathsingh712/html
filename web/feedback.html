@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* .box1{
+        color: white;
+        border: 2px solid orange;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+        display: flex;
+        position: absolute;
+        border-radius: 42px;
+        padding: 26px;
+        margin: 32px 64px 87px;
+        height: 378px;
+} */
+    /* .fbtn{
+    color: white;
+        border: 2px solid orange;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+        display: flex;
+        position: absolute;
+        border-radius: 42px;
+        padding: 26px;
+        margin: 32px 64px 87px;
+        height: 378px;
+} */
+</style>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .div {
+        padding: 30px;
+        color: white;
+        background-color: black;
+        /* background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(12.jpg); */
+        background-position: center;
+        background-size: cover;
+        height: 150vh;
+    }
+
+    .form {
+
+        border-radius: 15px;
+        padding: 10px;
+        padding-left: 600px;
+        /* text-align: center; */
+        margin: 20px;
+        border: 2px solid orange;
+    }
+
+    .div h1 {
+        /* border: 2px solid orange; */
+        border-radius: 12px;
+        text-align: center;
+        color: orange;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        font-size: 20px;
+    cursor: pointer;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid orange;
+    background-color: orange;
+    width: 176px;
+    margin: 12px 0px;
+    border-radius: 12px;
+    height: 38px;
+    }
+
+    .btn:hover {
+    background: white;
+}
+</style>
+
+<body>
+    <div class="div">
+        <h1 class="h-primary center">Feedback</h1>
+        <div class="form">
+
+            <form action="">
+
+                <div class="form-group">
+                    <label for="name">Name: </label><br>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email: </label><br>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label><br>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message: </label><br>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button class="btn">submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
